@@ -8,7 +8,8 @@ public class BallMovement : MonoBehaviour {
 	GameObject[] walls;
 	GameObject Ball;
 	GameObject Wall_Left;
-	List<Rectangle> boundingboxes;
+	List<Rectangle> wallboundingboxes;
+	List<Rectangle> itemboundingboxes;
 
 	public class Rectangle
 	{
@@ -56,6 +57,7 @@ public class BallMovement : MonoBehaviour {
 		Wall_Left = GameObject.Find ("wall_left");
 		//walls = new GameObject[9];
 		var walls = GameObject.FindGameObjectsWithTag("wall");
+		var items = GameObject.FindGameObjectsWithTag ("item");
 		//GameObject t = GameObject.FindGameObjectWithTag("Untagged");
 		//Debug.Log (t.transform.position.x);
 		Debug.Log (walls.Length);
@@ -69,11 +71,13 @@ public class BallMovement : MonoBehaviour {
 
 		//Debug.Log (walls.Length);
 		//Wall_Left.collider2D.transform.
-		boundingboxes = new List<Rectangle>();
-			
+		wallboundingboxes = new List<Rectangle>();
+		itemboundingboxes = new List<Rectangle> ();	
+
 		int counter = 0;
 
-		while(counter < 9) {
+		// gather walls
+		while(counter < walls.Length) {
 
 			Rectangle r = new Rectangle(0f, 0f, 0f, 0f);
 
@@ -93,29 +97,83 @@ public class BallMovement : MonoBehaviour {
 			else
 				r.height *= 1;
 
-			boundingboxes.Add (r);
+			wallboundingboxes.Add (r);
 			//Debug.Log (counter);
 
 			counter++;
 
 		}
 
-		foreach(Rectangle r in boundingboxes)
+		counter = 0;
+
+		// gather items
+		while (counter < items.Length) {
+
+			Rectangle r = new Rectangle(0f, 0f, 0f, 0f);
+
+			r.x = items [counter].transform.position.x;
+			r.y = items [counter].transform.position.y;
+			r.width = items [counter].transform.lossyScale.x;
+			r.height = items [counter].transform.lossyScale.y;
+
+			if(r.width < 0)
+				r.width *= -1;
+			else
+				r.width *= 1;
+
+
+			if (r.height < 0)
+				r.height *= -1;
+			else
+				r.height *= 1;
+
+			itemboundingboxes.Add (r);
+			//Debug.Log (counter);
+
+			counter++;
+
+		}
+
+		/*foreach(Rectangle r in wallboundingboxes)
 			Debug.Log ("X-Coord: " + r.x + Environment.NewLine +
 				       "Y-Coord: " + r.y + Environment.NewLine +
 					   "Width: " + r.width + Environment.NewLine + 
-					   "Height: " + r.height);
+					   "Height: " + r.height);*/
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
+		if (Input.GetKeyDown (KeyCode.E)) {
+
+			if(CheckCollision(Ball, 0) == 2 || CheckCollision(Ball, 1) == 2 || 
+				CheckCollision(Ball, 2) == 2 || CheckCollision(Ball, 3) == 2)
+			{
+
+				var item = GameObject.Find("Door_Key");
+				var name = item.name;
+				Debug.Log ("Item Grabbed: " + name);
+				Destroy(item, 0);
+
+			}
+
+		}
+
 		if (Input.GetKey (KeyCode.W)) {
 
-			if (CheckWallCollision (Ball, boundingboxes, 0) == 1) {
+			if (CheckCollision (Ball, 0) == 1) {
 				//Debug.Log ("Wall is Hit!");
-			}
+			} else if (CheckCollision (Ball, 0) == 2) {
+
+				Debug.Log ("Item Found!");
+				Ball.transform.Translate (0, .1f, 0);
+
+			} /*else if (CheckCollision (Ball, 0) == 3) {
+
+
+
+			}*/
 			else
 				Ball.transform.Translate (0, .1f, 0);
 
@@ -123,8 +181,13 @@ public class BallMovement : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.A)) {
 
-			if (CheckWallCollision (Ball, boundingboxes, 2) == 1) {
+			if (CheckCollision (Ball, 2) == 1) {
 				//Debug.Log ("Wall is Hit!");
+			} else if (CheckCollision (Ball, 2) == 2) {
+
+				Debug.Log ("Item Found!");
+				Ball.transform.Translate (-.1f, 0, 0);
+
 			}
 			else
 				Ball.transform.Translate (-.1f, 0, 0);
@@ -133,8 +196,14 @@ public class BallMovement : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.S)) {
 
-			if (CheckWallCollision (Ball, boundingboxes, 1) == 1) {
+			if (CheckCollision (Ball, 1) == 1) {
 				//Debug.Log ("Wall is Hit!");
+			}
+			else if (CheckCollision (Ball, 1) == 2) {
+
+				Debug.Log ("Item Found!");
+				Ball.transform.Translate (0, -.1f, 0);
+
 			}
 			else
 				Ball.transform.Translate (0, -.1f, 0);
@@ -143,8 +212,14 @@ public class BallMovement : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.D)) {
 
-			if (CheckWallCollision (Ball, boundingboxes, 3) == 1) {
+			if (CheckCollision (Ball, 3) == 1) {
 				//Debug.Log ("Wall is Hit!");
+			}
+			else if (CheckCollision (Ball, 3) == 2) {
+
+				Debug.Log ("Item Found!");
+				Ball.transform.Translate (.1f, 0, 0);
+
 			}
 			else
 				Ball.transform.Translate (.1f, 0, 0);
@@ -154,7 +229,7 @@ public class BallMovement : MonoBehaviour {
 	}
 
 	// 0 = no collision; 1 = wall collision; 2 = item collision; 3 = wall and item collision
-	public int CheckWallCollision(GameObject player, List<Rectangle> walls, int choice)
+	public int CheckCollision(GameObject player, int choice)
 	{
 
 		//Debug.Log ("Player Pos: X=" + player.transform.position.x + " | Y=" + player.transform.position.y);
@@ -207,13 +282,22 @@ public class BallMovement : MonoBehaviour {
 		bool wall_collision = false;
 		bool item_collision = false;
 
-		foreach (Rectangle r in walls) {
+		foreach (Rectangle r in wallboundingboxes) {
 
 			if ( (current.x >= r.x - r.width/2 && current.x <= r.x + r.width/2) && (current.y >= r.y - r.height/2 && current.y <= r.y + r.height/2) ) {
 				wall_collision = true;
 				break;
 			}
 				
+		}
+
+		foreach (Rectangle r in itemboundingboxes) {
+
+			if ( (current.x >= (r.x - r.width/2)-2 && current.x <= (r.x + r.width/2)+2) && (current.y >= (r.y - r.height/2)-2 && current.y <= (r.y + r.height/2)+2) ) {
+				item_collision = true;
+				break;
+			}
+
 		}
 
 		if (wall_collision && item_collision)
@@ -225,6 +309,14 @@ public class BallMovement : MonoBehaviour {
 		else
 			return 0;
 
+	}
+
+	void OnCollisionEnter(Collision collision) 
+	{
+		if(collision.gameObject.name == "wall_top")  // or if(gameObject.CompareTag("YourWallTag"))
+		{
+			Debug.Log ("Hit a wall!");
+		}
 	}
 
 }

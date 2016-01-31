@@ -10,6 +10,8 @@ public class BallMovement : MonoBehaviour {
 	GameObject Wall_Left;
 	List<Rectangle> wallboundingboxes;
 	List<Rectangle> itemboundingboxes;
+	GameObject[] _items;
+	string game_msg;
 
 	public class Rectangle
 	{
@@ -53,6 +55,7 @@ public class BallMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
+		game_msg = "";
 		Ball = GameObject.Find("s_t");
 		Wall_Left = GameObject.Find ("wall_left");
 		//walls = new GameObject[9];
@@ -61,6 +64,8 @@ public class BallMovement : MonoBehaviour {
 		//GameObject t = GameObject.FindGameObjectWithTag("Untagged");
 		//Debug.Log (t.transform.position.x);
 		Debug.Log (walls.Length);
+
+
 
 		/*GameObject[] objects = GameObject.FindObjectOfType (GameObject);
 		foreach (GameObject go in objects) {
@@ -151,10 +156,45 @@ public class BallMovement : MonoBehaviour {
 				CheckCollision(Ball, 2) == 2 || CheckCollision(Ball, 3) == 2)
 			{
 
-				var item = GameObject.Find("Door_Key");
-				var name = item.name;
-				Debug.Log ("Item Grabbed: " + name);
-				Destroy(item, 0);
+				var items = GameObject.FindGameObjectsWithTag ("item");
+
+				// check which item is closer and pick up that one
+				int del = 0;
+				int counter = 0;
+				float distance = -1;
+				foreach (GameObject i in items) {
+
+					if (distance == -1) {
+						del = counter;
+						distance = (float)Math.Sqrt ((i.transform.position.x - Ball.transform.position.x)*(i.transform.position.x - Ball.transform.position.x) +
+							(i.transform.position.y - Ball.transform.position.y)*(i.transform.position.y - Ball.transform.position.y));
+					} else {
+
+						float tmp_dist = (float)Math.Sqrt ((i.transform.position.x - Ball.transform.position.x)*(i.transform.position.x - Ball.transform.position.x) +
+							(i.transform.position.y - Ball.transform.position.y)*(i.transform.position.y - Ball.transform.position.y));
+
+						if (tmp_dist < distance) {
+							distance = tmp_dist;
+							del = counter;
+						}
+
+					}
+
+
+					counter++;
+
+				}
+
+				//var item = GameObject.Find("Door_Key");
+				//var name = item.name;
+				//items[del].
+				game_msg = "Item Grabbed: " + items[del].name;
+				//Debug.Log ("Item Grabbed: " + name);
+				//var items = new List<GameObject>(GameObject.FindGameObjectsWithTag ("item"));
+				//int index = items.FindIndex (obj => obj.name == "Door_Key");
+				itemboundingboxes.RemoveAt (del/*index*/);
+				Destroy(items[del], 0);
+
 
 			}
 
@@ -293,7 +333,7 @@ public class BallMovement : MonoBehaviour {
 
 		foreach (Rectangle r in itemboundingboxes) {
 
-			if ( (current.x >= (r.x - r.width/2)-2 && current.x <= (r.x + r.width/2)+2) && (current.y >= (r.y - r.height/2)-2 && current.y <= (r.y + r.height/2)+2) ) {
+			if ( (current.x >= (r.x - r.width/2)-.5 && current.x <= (r.x + r.width/2)+.5) && (current.y >= (r.y - r.height/2)-.5 && current.y <= (r.y + r.height/2)+.5) ) {
 				item_collision = true;
 				break;
 			}
@@ -317,6 +357,13 @@ public class BallMovement : MonoBehaviour {
 		{
 			Debug.Log ("Hit a wall!");
 		}
+	}
+
+	void OnGUI()
+	{
+
+		GUI.Label( new Rect(0, 0,200f,100f) , game_msg);
+
 	}
 
 }

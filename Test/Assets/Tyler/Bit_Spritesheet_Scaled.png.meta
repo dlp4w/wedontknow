@@ -1,0 +1,1667 @@
+fileFormatVersion: 2
+guid: de7e294646d8943cc99f8b6e7f77ba10
+timeCreated: 1454209051
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bit_Spritesheet_Scaled_0
+    21300002: Bit_Spritesheet_Scaled_1
+    21300004: Bit_Spritesheet_Scaled_2
+    21300006: Bit_Spritesheet_Scaled_3
+    21300008: Bit_Spritesheet_Scaled_4
+    21300010: Bit_Spritesheet_Scaled_5
+    21300012: Bit_Spritesheet_Scaled_6
+    21300014: Bit_Spritesheet_Scaled_7
+    21300016: Bit_Spritesheet_Scaled_8
+    21300018: Bit_Spritesheet_Scaled_9
+    21300020: Bit_Spritesheet_Scaled_10
+    21300022: Bit_Spritesheet_Scaled_11
+    21300024: Bit_Spritesheet_Scaled_12
+    21300026: Bit_Spritesheet_Scaled_13
+    21300028: Bit_Spritesheet_Scaled_14
+    21300030: Bit_Spritesheet_Scaled_15
+    21300032: Bit_Spritesheet_Scaled_16
+    21300034: Bit_Spritesheet_Scaled_17
+    21300036: Bit_Spritesheet_Scaled_18
+    21300038: Bit_Spritesheet_Scaled_19
+    21300040: Bit_Spritesheet_Scaled_20
+    21300042: Bit_Spritesheet_Scaled_21
+    21300044: Bit_Spritesheet_Scaled_22
+    21300046: Bit_Spritesheet_Scaled_23
+    21300048: Bit_Spritesheet_Scaled_24
+    21300050: Bit_Spritesheet_Scaled_25
+    21300052: Bit_Spritesheet_Scaled_26
+    21300054: Bit_Spritesheet_Scaled_27
+    21300056: Bit_Spritesheet_Scaled_28
+    21300058: Bit_Spritesheet_Scaled_29
+    21300060: Bit_Spritesheet_Scaled_30
+    21300062: Bit_Spritesheet_Scaled_31
+    21300064: Bit_Spritesheet_Scaled_32
+    21300066: Bit_Spritesheet_Scaled_33
+    21300068: Bit_Spritesheet_Scaled_34
+    21300070: Bit_Spritesheet_Scaled_35
+    21300072: Bit_Spritesheet_Scaled_36
+    21300074: Bit_Spritesheet_Scaled_37
+    21300076: Bit_Spritesheet_Scaled_38
+    21300078: Bit_Spritesheet_Scaled_39
+    21300080: Bit_Spritesheet_Scaled_40
+    21300082: Bit_Spritesheet_Scaled_41
+    21300084: Bit_Spritesheet_Scaled_42
+    21300086: Bit_Spritesheet_Scaled_43
+    21300088: Bit_Spritesheet_Scaled_44
+    21300090: Bit_Spritesheet_Scaled_45
+    21300092: Bit_Spritesheet_Scaled_46
+    21300094: Bit_Spritesheet_Scaled_47
+    21300096: Bit_Spritesheet_Scaled_48
+    21300098: Bit_Spritesheet_Scaled_49
+    21300100: Bit_Spritesheet_Scaled_50
+    21300102: Bit_Spritesheet_Scaled_51
+    21300104: Bit_Spritesheet_Scaled_52
+    21300106: Bit_Spritesheet_Scaled_53
+    21300108: Bit_Spritesheet_Scaled_54
+    21300110: Bit_Spritesheet_Scaled_55
+    21300112: Bit_Spritesheet_Scaled_56
+    21300114: Bit_Spritesheet_Scaled_57
+    21300116: Bit_Spritesheet_Scaled_58
+    21300118: Bit_Spritesheet_Scaled_59
+    21300120: Bit_Spritesheet_Scaled_60
+    21300122: Bit_Spritesheet_Scaled_61
+    21300124: Bit_Spritesheet_Scaled_62
+    21300126: Bit_Spritesheet_Scaled_63
+    21300128: Bit_Spritesheet_Scaled_64
+    21300130: Bit_Spritesheet_Scaled_65
+    21300132: Bit_Spritesheet_Scaled_66
+    21300134: Bit_Spritesheet_Scaled_67
+    21300136: Bit_Spritesheet_Scaled_68
+    21300138: Bit_Spritesheet_Scaled_69
+    21300140: Bit_Spritesheet_Scaled_70
+    21300142: Bit_Spritesheet_Scaled_71
+    21300144: Bit_Spritesheet_Scaled_72
+    21300146: Bit_Spritesheet_Scaled_73
+    21300148: Bit_Spritesheet_Scaled_74
+    21300150: Bit_Spritesheet_Scaled_75
+    21300152: Bit_Spritesheet_Scaled_76
+    21300154: Bit_Spritesheet_Scaled_77
+    21300156: Bit_Spritesheet_Scaled_78
+    21300158: Bit_Spritesheet_Scaled_79
+    21300160: Bit_Spritesheet_Scaled_80
+    21300162: Bit_Spritesheet_Scaled_81
+    21300164: Bit_Spritesheet_Scaled_82
+    21300166: Bit_Spritesheet_Scaled_83
+    21300168: Bit_Spritesheet_Scaled_84
+    21300170: Bit_Spritesheet_Scaled_85
+    21300172: Bit_Spritesheet_Scaled_86
+    21300174: Bit_Spritesheet_Scaled_87
+    21300176: Bit_Spritesheet_Scaled_88
+    21300178: Bit_Spritesheet_Scaled_89
+    21300180: Bit_Spritesheet_Scaled_90
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bit_Spritesheet_Scaled_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1095
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1095
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1095
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 825
+        width: 114
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -76}
+        - {x: -3, y: -79}
+        - {x: -2, y: -83}
+        - {x: 7, y: -135}
+        - {x: 54, y: -135}
+        - {x: 57, y: -116}
+        - {x: 57, y: -112}
+        - {x: 55, y: -111}
+        - {x: 48, y: -102}
+        - {x: 51, y: -93}
+        - {x: 52, y: -20}
+        - {x: 51, y: -16}
+        - {x: 48, y: -13}
+        - {x: 52, y: -15}
+        - {x: 57, y: -15}
+        - {x: 57, y: 44}
+        - {x: 55, y: 45}
+        - {x: 52, y: 45}
+        - {x: 49, y: 42}
+        - {x: 57, y: 52}
+        - {x: 57, y: 125}
+        - {x: 49, y: 135}
+        - {x: -43, y: 135}
+        - {x: -45, y: 132}
+        - {x: -45, y: 124}
+        - {x: -42, y: 121}
+        - {x: -46, y: 123}
+        - {x: -50, y: 124}
+        - {x: -53, y: 117}
+        - {x: -53, y: 58}
+        - {x: -49, y: 57}
+        - {x: -46, y: 57}
+        - {x: -43, y: 60}
+        - {x: -46, y: 57}
+        - {x: -49, y: 57}
+        - {x: -51, y: 55}
+        - {x: -51, y: 52}
+        - {x: -48, y: 49}
+        - {x: -52, y: 51}
+        - {x: -56, y: 52}
+        - {x: -57, y: 51}
+        - {x: -57, y: -135}
+        - {x: -12, y: -135}
+        - {x: -3, y: -79}
+        - {x: -3, y: -76}
+        - {x: -5, y: -73}
+    - name: Bit_Spritesheet_Scaled_4
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 825
+        width: 113
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: -76}
+        - {x: -2.5, y: -79}
+        - {x: -1.5, y: -83}
+        - {x: 7.5, y: -135}
+        - {x: 54.5, y: -135}
+        - {x: 56.5, y: -121}
+        - {x: 56.5, y: -111}
+        - {x: 55.5, y: -111}
+        - {x: 48.5, y: -102}
+        - {x: 51.5, y: -93}
+        - {x: 52.5, y: -20}
+        - {x: 51.5, y: -16}
+        - {x: 48.5, y: -13}
+        - {x: 52.5, y: -15}
+        - {x: 56.5, y: -15}
+        - {x: 56.5, y: 45}
+        - {x: 52.5, y: 45}
+        - {x: 49.5, y: 42}
+        - {x: 51.5, y: 46}
+        - {x: 51.5, y: 49}
+        - {x: 49.5, y: 51}
+        - {x: 46.5, y: 51}
+        - {x: 43.5, y: 48}
+        - {x: 45.5, y: 52}
+        - {x: 45.5, y: 55}
+        - {x: 43.5, y: 57}
+        - {x: 38.5, y: 59}
+        - {x: 54.5, y: 55}
+        - {x: 56.5, y: 58}
+        - {x: 56.5, y: 107}
+        - {x: 40.5, y: 135}
+        - {x: -37.5, y: 135}
+        - {x: -38.5, y: 133}
+        - {x: -38.5, y: 130}
+        - {x: -35.5, y: 127}
+        - {x: -39.5, y: 129}
+        - {x: -42.5, y: 129}
+        - {x: -44.5, y: 127}
+        - {x: -44.5, y: 124}
+        - {x: -41.5, y: 121}
+        - {x: -45.5, y: 123}
+        - {x: -49.5, y: 124}
+        - {x: -52.5, y: 117}
+        - {x: -56.5, y: 113}
+        - {x: -56.5, y: 69}
+        - {x: -51.5, y: 69}
+        - {x: -48.5, y: 72}
+        - {x: -50.5, y: 62}
+        - {x: -50.5, y: 59}
+        - {x: -48.5, y: 57}
+        - {x: -45.5, y: 57}
+        - {x: -42.5, y: 60}
+        - {x: -45.5, y: 57}
+        - {x: -48.5, y: 57}
+        - {x: -50.5, y: 55}
+        - {x: -50.5, y: 52}
+        - {x: -47.5, y: 49}
+        - {x: -51.5, y: 51}
+        - {x: -55.5, y: 52}
+        - {x: -56.5, y: 51}
+        - {x: -56.5, y: -135}
+        - {x: -11.5, y: -135}
+        - {x: -2.5, y: -79}
+        - {x: -2.5, y: -76}
+        - {x: -4.5, y: -73}
+    - name: Bit_Spritesheet_Scaled_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 825
+        width: 90
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 120}
+        - {x: 39, y: 124}
+        - {x: 40, y: 128}
+        - {x: 22, y: 135}
+        - {x: -43, y: 135}
+        - {x: -45, y: 122}
+        - {x: -45, y: 52}
+        - {x: -43, y: 51}
+        - {x: -34, y: 51}
+        - {x: -31, y: 54}
+        - {x: -34, y: 50}
+        - {x: -34, y: 45}
+        - {x: -33, y: -91}
+        - {x: -31, y: -93}
+        - {x: -27, y: -94}
+        - {x: -35, y: -105}
+        - {x: -32, y: -135}
+        - {x: 36, y: -135}
+        - {x: 45, y: -90}
+        - {x: 45, y: 124}
+        - {x: 40, y: 123}
+    - name: Bit_Spritesheet_Scaled_6
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1089
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_7
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 825
+        width: 90
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 135}
+        - {x: -29, y: 135}
+        - {x: -44, y: 129}
+        - {x: -36, y: 121}
+        - {x: -40, y: 123}
+        - {x: -44, y: 124}
+        - {x: -45, y: 121}
+        - {x: -45, y: 59}
+        - {x: -42, y: 56}
+        - {x: -40, y: 56}
+        - {x: -38, y: 58}
+        - {x: -41, y: 51}
+        - {x: -45, y: 19}
+        - {x: -45, y: -100}
+        - {x: -35, y: -135}
+        - {x: 30, y: -135}
+        - {x: 41, y: -80}
+        - {x: 45, y: -24}
+        - {x: 45, y: 132}
+    - name: Bit_Spritesheet_Scaled_8
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1089
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_9
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1065
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_10
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1065
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_11
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1053
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_12
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1053
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_13
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1037
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_14
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1037
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_15
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1025
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_16
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1025
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_17
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 999
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_18
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 999
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_19
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 947
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_20
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 947
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_21
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 843
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_22
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 843
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_23
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_26
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_27
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_28
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_29
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_30
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_31
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_32
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_33
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_34
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 821
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_35
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 723
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_36
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 723
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_37
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 723
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_38
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 453
+        width: 114
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -76}
+        - {x: -3, y: -79}
+        - {x: -2, y: -83}
+        - {x: -1, y: -133}
+        - {x: 1, y: -135}
+        - {x: 57, y: -135}
+        - {x: 57, y: 125}
+        - {x: 49, y: 135}
+        - {x: -43, y: 135}
+        - {x: -45, y: 132}
+        - {x: -45, y: 124}
+        - {x: -42, y: 121}
+        - {x: -46, y: 123}
+        - {x: -50, y: 124}
+        - {x: -53, y: 117}
+        - {x: -53, y: 58}
+        - {x: -49, y: 57}
+        - {x: -46, y: 57}
+        - {x: -43, y: 60}
+        - {x: -46, y: 57}
+        - {x: -49, y: 57}
+        - {x: -51, y: 55}
+        - {x: -51, y: 52}
+        - {x: -48, y: 49}
+        - {x: -52, y: 51}
+        - {x: -56, y: 52}
+        - {x: -57, y: 51}
+        - {x: -57, y: -135}
+        - {x: -12, y: -135}
+        - {x: -3, y: -79}
+        - {x: -3, y: -76}
+        - {x: -5, y: -73}
+    - name: Bit_Spritesheet_Scaled_39
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 453
+        width: 117
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: -102}
+        - {x: 53.5, y: -93}
+        - {x: 54.5, y: -20}
+        - {x: 53.5, y: -16}
+        - {x: 50.5, y: -13}
+        - {x: 54.5, y: -15}
+        - {x: 58.5, y: -15}
+        - {x: 58.5, y: 45}
+        - {x: 54.5, y: 45}
+        - {x: 51.5, y: 42}
+        - {x: 53.5, y: 46}
+        - {x: 53.5, y: 49}
+        - {x: 51.5, y: 51}
+        - {x: 48.5, y: 51}
+        - {x: 45.5, y: 48}
+        - {x: 47.5, y: 52}
+        - {x: 47.5, y: 55}
+        - {x: 45.5, y: 57}
+        - {x: 40.5, y: 59}
+        - {x: 56.5, y: 55}
+        - {x: 58.5, y: 58}
+        - {x: 58.5, y: 107}
+        - {x: 42.5, y: 135}
+        - {x: -35.5, y: 135}
+        - {x: -36.5, y: 133}
+        - {x: -36.5, y: 130}
+        - {x: -33.5, y: 127}
+        - {x: -37.5, y: 129}
+        - {x: -40.5, y: 129}
+        - {x: -42.5, y: 127}
+        - {x: -42.5, y: 124}
+        - {x: -39.5, y: 121}
+        - {x: -43.5, y: 123}
+        - {x: -47.5, y: 124}
+        - {x: -50.5, y: 117}
+        - {x: -56.5, y: 110}
+        - {x: -56.5, y: 70}
+        - {x: -52.5, y: 69}
+        - {x: -49.5, y: 69}
+        - {x: -46.5, y: 72}
+        - {x: -48.5, y: 62}
+        - {x: -48.5, y: 59}
+        - {x: -46.5, y: 57}
+        - {x: -43.5, y: 57}
+        - {x: -40.5, y: 60}
+        - {x: -43.5, y: 57}
+        - {x: -46.5, y: 57}
+        - {x: -48.5, y: 55}
+        - {x: -48.5, y: 52}
+        - {x: -45.5, y: 49}
+        - {x: -49.5, y: 51}
+        - {x: -52.5, y: 51}
+        - {x: -54.5, y: 49}
+        - {x: -54.5, y: 46}
+        - {x: -51.5, y: 43}
+        - {x: -55.5, y: 45}
+        - {x: -58.5, y: 46}
+        - {x: -58.5, y: -16}
+        - {x: -55.5, y: -15}
+        - {x: -52.5, y: -12}
+        - {x: -54.5, y: -16}
+        - {x: -54.5, y: -19}
+        - {x: -52.5, y: -21}
+        - {x: -48.5, y: -22}
+        - {x: -48.5, y: -91}
+        - {x: -46.5, y: -93}
+        - {x: -43.5, y: -93}
+        - {x: -40.5, y: -90}
+        - {x: -49.5, y: -100}
+        - {x: -48.5, y: -104}
+        - {x: -45.5, y: -107}
+        - {x: -55.5, y: -105}
+        - {x: -58.5, y: -105}
+        - {x: -58.5, y: -135}
+        - {x: -2.5, y: -135}
+        - {x: -0.5, y: -79}
+        - {x: -0.5, y: -76}
+        - {x: -2.5, y: -73}
+        - {x: -0.5, y: -76}
+        - {x: -0.5, y: -79}
+        - {x: 1.5, y: -81}
+        - {x: 5.5, y: -82}
+        - {x: 9.5, y: -135}
+        - {x: 56.5, y: -135}
+        - {x: 58.5, y: -121}
+        - {x: 58.5, y: -111}
+        - {x: 57.5, y: -111}
+    - name: Bit_Spritesheet_Scaled_40
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 449
+        width: 90
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 125}
+        - {x: 37, y: 122}
+        - {x: 39, y: 126}
+        - {x: 40, y: 130}
+        - {x: 22, y: 137}
+        - {x: -43, y: 137}
+        - {x: -45, y: 124}
+        - {x: -45, y: 54}
+        - {x: -43, y: 53}
+        - {x: -34, y: 53}
+        - {x: -31, y: 56}
+        - {x: -34, y: 52}
+        - {x: -34, y: 48}
+        - {x: -45, y: -64}
+        - {x: -45, y: -136}
+        - {x: -32, y: -137}
+        - {x: 42, y: -137}
+        - {x: 45, y: -110}
+        - {x: 45, y: 126}
+    - name: Bit_Spritesheet_Scaled_41
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 717
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_42
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 449
+        width: 106
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: -106}
+        - {x: 49, y: -96}
+        - {x: 49, y: -93}
+        - {x: 47, y: -91}
+        - {x: 44, y: -91}
+        - {x: 37, y: -39}
+        - {x: 35, y: -37}
+        - {x: 32, y: -37}
+        - {x: 29, y: -40}
+        - {x: 31, y: -36}
+        - {x: 31, y: -33}
+        - {x: 29, y: -31}
+        - {x: 25, y: -30}
+        - {x: 26, y: 52}
+        - {x: 24, y: 54}
+        - {x: 26, y: 53}
+        - {x: 29, y: 53}
+        - {x: 31, y: 55}
+        - {x: 31, y: 58}
+        - {x: 28, y: 61}
+        - {x: 32, y: 59}
+        - {x: 35, y: 50}
+        - {x: 53, y: 76}
+        - {x: 53, y: 77}
+        - {x: 42, y: 104}
+        - {x: 38, y: 101}
+        - {x: 35, y: 98}
+        - {x: 42, y: 108}
+        - {x: 37, y: 125}
+        - {x: 28, y: 137}
+        - {x: -23, y: 137}
+        - {x: -39, y: 134}
+        - {x: -49, y: 130}
+        - {x: -47, y: 126}
+        - {x: -44, y: 123}
+        - {x: -48, y: 125}
+        - {x: -52, y: 126}
+        - {x: -53, y: 123}
+        - {x: -53, y: 61}
+        - {x: -50, y: 58}
+        - {x: -48, y: 58}
+        - {x: -46, y: 60}
+        - {x: -49, y: 53}
+        - {x: -53, y: -33}
+        - {x: -53, y: -65}
+        - {x: -52, y: -68}
+        - {x: -47, y: -68}
+        - {x: -50, y: -137}
+        - {x: 29, y: -137}
+        - {x: 53, y: -133}
+        - {x: 53, y: -103}
+        - {x: 50, y: -103}
+    - name: Bit_Spritesheet_Scaled_43
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 717
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_44
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 693
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_45
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 693
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_46
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 681
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_47
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 665
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_48
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 653
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_49
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 653
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_50
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 627
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_51
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 627
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_52
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 575
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_53
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 575
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_54
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 477
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_55
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 477
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_56
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 471
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_57
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 449
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_58
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 449
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_59
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 449
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_60
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 449
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_61
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 449
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_62
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 449
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_63
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 363
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 363
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_65
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 363
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_66
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 93
+        width: 118
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -102}
+        - {x: 53, y: -93}
+        - {x: 54, y: -20}
+        - {x: 53, y: -16}
+        - {x: 50, y: -13}
+        - {x: 54, y: -15}
+        - {x: 59, y: -15}
+        - {x: 59, y: 44}
+        - {x: 57, y: 45}
+        - {x: 54, y: 45}
+        - {x: 51, y: 42}
+        - {x: 59, y: 52}
+        - {x: 59, y: 125}
+        - {x: 51, y: 135}
+        - {x: -41, y: 135}
+        - {x: -43, y: 132}
+        - {x: -43, y: 124}
+        - {x: -40, y: 121}
+        - {x: -44, y: 123}
+        - {x: -48, y: 124}
+        - {x: -51, y: 117}
+        - {x: -51, y: 58}
+        - {x: -47, y: 57}
+        - {x: -44, y: 57}
+        - {x: -41, y: 60}
+        - {x: -44, y: 57}
+        - {x: -47, y: 57}
+        - {x: -49, y: 55}
+        - {x: -49, y: 52}
+        - {x: -46, y: 49}
+        - {x: -50, y: 51}
+        - {x: -53, y: 51}
+        - {x: -55, y: 49}
+        - {x: -55, y: 46}
+        - {x: -52, y: 43}
+        - {x: -56, y: 45}
+        - {x: -59, y: 46}
+        - {x: -59, y: -16}
+        - {x: -56, y: -15}
+        - {x: -53, y: -12}
+        - {x: -55, y: -16}
+        - {x: -55, y: -19}
+        - {x: -53, y: -21}
+        - {x: -49, y: -22}
+        - {x: -49, y: -91}
+        - {x: -47, y: -93}
+        - {x: -44, y: -93}
+        - {x: -41, y: -90}
+        - {x: -50, y: -100}
+        - {x: -49, y: -104}
+        - {x: -46, y: -107}
+        - {x: -56, y: -105}
+        - {x: -59, y: -105}
+        - {x: -59, y: -135}
+        - {x: -10, y: -135}
+        - {x: -3, y: -134}
+        - {x: -1, y: -79}
+        - {x: -1, y: -76}
+        - {x: -3, y: -73}
+        - {x: -1, y: -76}
+        - {x: -1, y: -79}
+        - {x: 1, y: -81}
+        - {x: 5, y: -82}
+        - {x: 9, y: -135}
+        - {x: 56, y: -135}
+        - {x: 59, y: -116}
+        - {x: 59, y: -112}
+        - {x: 57, y: -111}
+    - name: Bit_Spritesheet_Scaled_67
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 93
+        width: 113
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: -76}
+        - {x: -2.5, y: -79}
+        - {x: -1.5, y: -83}
+        - {x: -0.5, y: -133}
+        - {x: 1.5, y: -135}
+        - {x: 56.5, y: -135}
+        - {x: 56.5, y: 45}
+        - {x: 52.5, y: 45}
+        - {x: 49.5, y: 42}
+        - {x: 51.5, y: 46}
+        - {x: 51.5, y: 49}
+        - {x: 49.5, y: 51}
+        - {x: 46.5, y: 51}
+        - {x: 43.5, y: 48}
+        - {x: 45.5, y: 52}
+        - {x: 45.5, y: 55}
+        - {x: 43.5, y: 57}
+        - {x: 38.5, y: 59}
+        - {x: 54.5, y: 55}
+        - {x: 56.5, y: 58}
+        - {x: 56.5, y: 107}
+        - {x: 40.5, y: 135}
+        - {x: -37.5, y: 135}
+        - {x: -38.5, y: 133}
+        - {x: -38.5, y: 130}
+        - {x: -35.5, y: 127}
+        - {x: -39.5, y: 129}
+        - {x: -42.5, y: 129}
+        - {x: -44.5, y: 127}
+        - {x: -44.5, y: 124}
+        - {x: -41.5, y: 121}
+        - {x: -45.5, y: 123}
+        - {x: -49.5, y: 124}
+        - {x: -52.5, y: 117}
+        - {x: -56.5, y: 113}
+        - {x: -56.5, y: 69}
+        - {x: -51.5, y: 69}
+        - {x: -48.5, y: 72}
+        - {x: -50.5, y: 62}
+        - {x: -50.5, y: 59}
+        - {x: -48.5, y: 57}
+        - {x: -45.5, y: 57}
+        - {x: -42.5, y: 60}
+        - {x: -45.5, y: 57}
+        - {x: -48.5, y: 57}
+        - {x: -50.5, y: 55}
+        - {x: -50.5, y: 52}
+        - {x: -47.5, y: 49}
+        - {x: -51.5, y: 51}
+        - {x: -55.5, y: 52}
+        - {x: -56.5, y: 51}
+        - {x: -56.5, y: -135}
+        - {x: -11.5, y: -135}
+        - {x: -2.5, y: -79}
+        - {x: -2.5, y: -76}
+        - {x: -4.5, y: -73}
+    - name: Bit_Spritesheet_Scaled_68
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 89
+        width: 106
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 122}
+        - {x: 49, y: 130}
+        - {x: 28, y: 137}
+        - {x: -32, y: 137}
+        - {x: -41, y: 106}
+        - {x: -34, y: 99}
+        - {x: -38, y: 101}
+        - {x: -47, y: 101}
+        - {x: -43, y: 74}
+        - {x: -38, y: 60}
+        - {x: -35, y: 59}
+        - {x: -32, y: 59}
+        - {x: -29, y: 62}
+        - {x: -31, y: 58}
+        - {x: -31, y: 55}
+        - {x: -29, y: 53}
+        - {x: -26, y: 53}
+        - {x: -23, y: 56}
+        - {x: -26, y: 52}
+        - {x: -26, y: 48}
+        - {x: -25, y: 46}
+        - {x: -32, y: -32}
+        - {x: -31, y: -36}
+        - {x: -28, y: -39}
+        - {x: -32, y: -37}
+        - {x: -36, y: -36}
+        - {x: -39, y: -43}
+        - {x: -53, y: -80}
+        - {x: -53, y: -135}
+        - {x: -49, y: -135}
+        - {x: -16, y: -137}
+        - {x: 49, y: -137}
+        - {x: 53, y: -102}
+        - {x: 53, y: 126}
+        - {x: 48, y: 125}
+    - name: Bit_Spritesheet_Scaled_69
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 357
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_70
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 89
+        width: 90
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 137}
+        - {x: -44, y: 131}
+        - {x: -36, y: 123}
+        - {x: -40, y: 125}
+        - {x: -44, y: 126}
+        - {x: -45, y: 123}
+        - {x: -45, y: 61}
+        - {x: -42, y: 58}
+        - {x: -40, y: 58}
+        - {x: -38, y: 60}
+        - {x: -41, y: 53}
+        - {x: -45, y: -33}
+        - {x: -45, y: -65}
+        - {x: -44, y: -68}
+        - {x: -42, y: -137}
+        - {x: 45, y: -137}
+        - {x: 45, y: 133}
+        - {x: 36, y: 137}
+    - name: Bit_Spritesheet_Scaled_71
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 357
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_72
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 333
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_73
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 333
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_74
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 321
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_75
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 305
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_76
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 293
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_77
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 293
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_78
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 267
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_79
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 267
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_80
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 215
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_81
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 215
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_82
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 117
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_83
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 117
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_84
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 111
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_85
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 89
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_86
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 89
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_87
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 89
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_88
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 89
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_89
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 89
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bit_Spritesheet_Scaled_90
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 89
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

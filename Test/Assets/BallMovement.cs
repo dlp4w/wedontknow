@@ -286,17 +286,17 @@ public class BallMovement : MonoBehaviour {
 		Point left = new Point(0f, 0f);
 		Point right = new Point(0f, 0f);
 
-		top.x = x;
-		top.y = y + half_height;
+		top.x = x + 1;
+		top.y = y + half_height + 1;
 
-		bottom.x = x;
-		bottom.y = y - half_height;
+		bottom.x = x - 1;
+		bottom.y = y - half_height - 1;
 
-		left.x = x - half_width;
-		left.y = y;
+		left.x = x - half_width - .5f;
+		left.y = y - .5f;
 
-		right.x = x + half_width;
-		right.y = y;
+		right.x = x + half_width + .5f;
+		right.y = y + .5f;
 
 		Point current = new Point (0f, 0f);
 
@@ -363,6 +363,22 @@ public class BallMovement : MonoBehaviour {
 	{
 
 		GUI.Label( new Rect(0, 0,200f,100f) , game_msg);
+
+	}
+
+	void RandomizeItems(Rectangle[] rects){
+
+
+
+	}
+
+	public class Item{
+
+		public string name;
+		public int value;
+		public string usage;
+
+		public Item(){}
 
 	}
 

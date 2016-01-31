@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BallMovement.cs" />
+     <Compile Include="Assets\EmptyClass.cs" />
+     <Compile Include="Assets\Tyler\Script\BitControl1.cs" />
      <Compile Include="Assets\color.cs" />
      <Compile Include="Assets\wallget.cs" />
  <Reference Include="UnityEngine.UI">
